@@ -1,0 +1,234 @@
+
+  /* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* nave bare */
+  
+.navbar {
+  background-color: black;
+}
+
+.navbar a {
+  color: white !important;
+}
+
+.navbar a:hover {
+  color: #ff0000 !important;
+}
+/* safeha lawela  */
+.hero {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/mer/wp3980866-mercedes-wallpapers.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-family:  serif;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.hero .btn-primary {
+  background-color: #680000;
+  border: none;
+  margin-right: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+.hero .btn-outline-light {
+  border-color: white;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+.hero .btn-primary:hover {
+  background-color: #ffffff;
+  color: #ff0000;
+}
+
+.hero .btn-outline-light:hover {
+  background-color: white;
+  color: #ff0000;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  .hero .btn-primary,
+  .hero .btn-outline-light {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+ /* tonobilat  */
+  .car-card {
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .car-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .car-card img {
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .car-card img:hover {
+    transform: scale(1.4);
+  }
+  
+  .car-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .car-card h5 {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .car-card .btn {
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .car-card .btn:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+/* lbotonat deyak crt */
+
+#red {
+  background-color: #af0000;
+  color:rgb(255, 255, 255);
+}
+
+#red:hover {
+  background-color: #ffffff;
+  color: #ff0000;
+  border: #ff0000 solid 1px;
+}
+
+/* ta3edilat deyal le3nwane */
+
+.about-us {
+  font-family: serif;
+  background-color: white;
+  color: #333;
+}
+
+.about-title {
+  font-family: serif;
+
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+ /* parametre deyal vedi */
+.about-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #666;
+}
+.video-container {
+  position: relative;
+  padding-top: 56.25%; 
+  background-color: #f8f9fa;
+}
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+  /* footer */
+  
+  .custom-footer {
+    background: linear-gradient(135deg, #000000, #131111, #221d1d);
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border-top: 3px solid #444;
+  }
+
+  .custom-footer h5 {
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .custom-footer p,
+  .custom-footer a {
+    color: #000000;
+    font-size: 0.9rem;
+  }
+
+  .custom-footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .custom-footer ul {
+    padding-left: 0;
+  }
+
+  .custom-footer ul li {
+    margin-bottom: 8px;
+  }
+
+  .custom-footer .text-light {
+    color: #d6d6d6 !important;
+  }
+
+  .custom-footer a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+
+  .custom-footer a:hover {
+    color: #fff;
+    transform: scale(1.1); 
+  }
+  .custom-footer .col-md-3:hover {
+    transform: translateY(-10px); 
+    transition: transform 0.3s ease;
+  }
+
+
